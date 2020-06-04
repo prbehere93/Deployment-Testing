@@ -4,6 +4,7 @@ import pickle
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 import nltk
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import pandas as pd
 
