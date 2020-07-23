@@ -28,7 +28,7 @@ def predict():
 		data=data.apply(t1.lemmatize)
 		data=t2.transform(data)
 		prediction = model.predict(data)
-	return render_template('index.html', prediction_text='The News is $ {}'.format(prediction))
+	return render_template('index.html', prediction_text=str('The News is '+str(prediction[0])))
 
 
 if __name__ == "__main__":
