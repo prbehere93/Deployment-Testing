@@ -4,8 +4,16 @@ h1
     background-color:darkslategray;
     font-size: 70px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p
 {
     color: burlywood;
+}
+
+form
+{   
+    font-size: large;
+    background-color: rgb(194, 194, 194);
+    padding: 40px;
 }
