@@ -17,3 +17,14 @@ form
     background-color: rgb(194, 194, 194);
     padding: 40px;
 }
+
+form textarea{
+    font-size: large;
+    background-color:coral;
+}
+
+h3{
+    font-size: large;
+    text-align: center;
+    border: solid black;
+}
