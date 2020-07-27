@@ -14,17 +14,24 @@ p
 form
 {   
     font-size: large;
-    background-color: rgb(194, 194, 194);
+    color: cornsilk;
+    background-color:rgb(16, 6, 43);
     padding: 40px;
 }
 
-form textarea{
+textarea{
+    background-color: black;
+    color: inherit;
     font-size: large;
-    background-color:coral;
+}
+
+input{
+    font-size: x-large;
+    background-color: floralwhite;
 }
 
 h3{
     font-size: large;
     text-align: center;
-    border: solid black;
+    border: 1px solid black;
 }
