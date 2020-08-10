@@ -8,8 +8,8 @@
 
 <body>
 <input type="button" class="homebutton" onclick="window.location.href='{{ url_for('home') }}';" value="Home" />
-  <br>
-  <div class="login">
+  
+<div class="login">
 	<h1>Fake News Classifier</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
@@ -19,17 +19,12 @@
       <!-- <input type="text" name="comment"/> -->  
       <textarea name="message" rows="7" cols="50" placeholder="Paste the news article here..."></textarea>
       <br/><br>
-
       <input type="submit" class="message_box" name="message box" class="btn-info" value="Predict">
       
   </form>
-
-   <br>
-   <br> 
-   <h3>{{ prediction_text }}</h3>
-
-
-   
+  <br>
+  <h3>{{ prediction_text }}</h3>
+  
   </div>
 
 

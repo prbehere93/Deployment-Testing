@@ -2,7 +2,7 @@ h1
 {
     color:white;
     background-color:darkslategray;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,7 +16,7 @@ form
     font-size: large;
     color: cornsilk;
     background-color:rgb(16, 6, 43);
-    padding: 40px;
+    padding: 30px;
 }
 
 textarea{
@@ -31,7 +31,7 @@ input{
 }
 
 h3{
-    font-size: large;
+    font-size: x-large;
     text-align: center;
     border: 1px solid black;
 }
