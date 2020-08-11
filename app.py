@@ -1,7 +1,5 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
-import pickle
-import pandas as pd
 from keras.preprocessing import text, sequence
 import tensorflow as tf
 from tensorflow import keras
